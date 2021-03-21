@@ -1,1 +1,79 @@
 /* estilos de mi primer reto con frontend mentor */
+:root{
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+h1{
+  color: var(--very-dark-desaturated-blue);
+  margin: 0;
+  font-size: 25px;
+  margin-top: 25px;
+}
+h1 span{
+  color: var(--dark-grayish-blue);
+  font-weight: 400;
+  margin-left: 5px;
+}
+h2{
+  color: var(--dark-grayish-blue);
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.cuerpo{
+  background-color: var(--dark-cyan);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left -30% top 90%, right -20% bottom 250%;
+  padding: 50px;
+  font-family: 'Kumbh Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container-card{
+  background:#fff url(../images/bg-pattern-card.svg) repeat-x;
+  /*background-repeat: repeat no-repeat;
+  */border-radius: 20px;
+  text-align: center;
+  padding-top: 80px;
+  max-width: 350px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.image{
+  border:8px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #E8E8E8;
+  padding: 10px 0;
+
+}
+.social h3{
+ font-size: 18px;
+}
+.social h3 span{
+  display: block;
+  color: var(--dark-grayish-blue);
+  /* font-size: 12px; */
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
